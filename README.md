@@ -36,6 +36,10 @@ Kendi istediğiniz bir problemde test etmek isterseniz:
 Ayrıca soru ebatlarını da değiştirebilirsiniz. Öntanımlı olarak C(10,4) arıyor.
 Bunları /src/1hazırlık.js - ilk satır : kaçın: 25 kaçlısı: 5 (örnek) değiştirebilirsiniz.
 
+Ortalama alma işlemini otomatik yaptırmak isterseniz:
+  test.ortalama()
+  test.stop()
+
 
 ## Harezmik Yöntem
 Tahmini önceki tüm tahminlerle karşılaştırıp şu ihtimali araştırır :
@@ -90,6 +94,9 @@ You may change these parameters from
 /src/1hazırlık.js - first line:  (example)
 const kaçın= 25; const kaçlısı= 8;
 
+Taking the average automatically:
+  test.ortalama()
+  test.stop()
 
 ## Algorithm :
 Examines the new guess in correlation with all previous guesses.
