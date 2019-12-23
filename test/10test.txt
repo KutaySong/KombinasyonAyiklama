@@ -1,0 +1,53 @@
+
+
+let test={}
+const bekleme= {ortalama:250}
+
+
+test.sonSonucuSindir = () => {
+    noLoop()
+    tahminler= []
+    cevaplar= []
+    tahminSözlüğü= {}
+    tahminSözlüğüHazırla()
+    
+    tahminler[0] = [1,2,3]
+    tahminler[1] = [1,2,4]
+    cevaplar[0]= 2
+    cevaplar[1]= 1
+    
+    sonSonucuSindir()
+    return tahminSözlüğü
+}
+
+test.ortalama= () => {
+    frameRate(60)
+    console.clear()
+    const ihtimalAdedi= test.kaçİhtimalVar()
+    console.log("Bütün ihtimallerin sayısı:", ihtimalAdedi)
+    let enKötü = 0
+    test.intervalID= setInterval(()=> {
+        if (cevaplar[cevaplar.length-1]==kaçlısı) { // hesap hesaplanabildi
+            const ortalama= floor(skorlar.reduce((t,a)=>t+a,0)/skorlar.length)
+            if (skorlar[skorlar.length-1]>enKötü) enKötü= skorlar[skorlar.length-1]
+            console.log("Ortalama:",ortalama, " EnKötü:",enKötü , " DenemeSayısı:",skorlar.length)
+            soruHazırla(false)
+            loop()
+        } else {
+            console.log("Test öntanımlı süreyi aştı 10-04 değiştirebilirsiniz.")
+            console.log(bulunacak, tahminler, cevaplar)
+        } 
+    }, bekleme.ortalama)
+}
+
+test.stop= () => clearInterval(test.intervalID)
+
+test.kaçİhtimalVar = () => {
+    let paylar= [kaçın]
+    let paydalar= [kaçlısı]
+    for(let ii=kaçlısı-1; ii>0; ii--) {
+        paylar[paylar.length]= paylar[paylar.length-1]-1
+        paydalar.push(ii)
+    }
+    return paylar.reduce((t,a)=>t*a,1) / paydalar.reduce((t,a)=>t*a,1)
+}

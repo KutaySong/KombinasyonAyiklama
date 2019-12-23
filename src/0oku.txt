@@ -1,0 +1,46 @@
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+      NE YAPAR ?                                (12-2019)
+
+      5'in 3'lüsünü soran ve tahminlerle çözen bir yazılım
+      KONSOL'da çalışır.
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+      NAKARATLAR :
+
+
+      14    test.stop() da eklendi
+      13    test.ortalama() bitirildi
+      12    fork'tan döndüm tutarlılık check çalışıyor
+      11    3-41 eklenmeye çalışıldı (4-23)
+      10    3-58 bilinenler birSıfırOlanlar ile değiştirildi
+      09    test III ok
+      08    test II ok
+      07    test I ok
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+      EKLENEBİLECEKLER :
+
+
+
+
+-2-
+3-31/41 geliştirilebilir. (4-32/42 de) tahminlerin alt-ağaçlara parçalanması
+şeklinde tahminSözlüğü'ne ekTahminParçalanımSözlüğü oluşturulabilir. Bu çalışmasına başlarken
+(artılar arasındaki fark rakam-değişimlerindeki farka EN YAKIN OLAN)'dan başlayabilir.
+
+
+-1-
+1  2  3  4  5  
+   X        X   ++
+-------------------
+         X  X   +
+      X     X   +
+X  X            +
+X     X           -> bU tahminde sıkıntı var.
