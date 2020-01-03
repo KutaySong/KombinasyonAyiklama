@@ -7,12 +7,12 @@ C(M,N) kombinasyonu için minimum tahminde doğru N'yi bulmaya çalışır.
 
 Örnek:
 
->   5  _  3  2  _   (bu seçimi bulmaya çalışsın)
+0.   5  _  3  2  _   (bu seçimi bulmaya çalışsın) 
 ------------------
->   _  4  3  2  _   ++  (ilk aldığı geri bildirim: "2 tane tutturdun")
->   5  4  _  _  1   +   (ikinci deneme: burada 4'ün olmadığı anlaşılıyor)   
->   _  _  3  2  1   ++ 
->   5  _  3  2  _   +++ (sonuç bulundu)      
+1.   _  4  3  2  _   ++  (ilk aldığı geri bildirim: "2 tane tutturdun")
+2.   5  4  _  _  1   +   (ikinci deneme: burada 4'ün olmadığı anlaşılıyor)   
+3.   _  _  3  2  1   ++ 
+4.   5  _  3  2  _   +++ (sonuç bulundu)      
 
 
 ![Alt Text](images/EK1.jpg?raw=true "EkranKesiti")
@@ -43,8 +43,8 @@ Tahmini önceki tüm tahminlerle karşılaştırıp şu ihtimali araştırır :
 
 Örnek :
 -------
->   1 2 3  + + 
->   1 2 4  + + +
+1.   1 2 3  + + 
+2.   1 2 4  + + +
 
 Burada 4'ün kesinlikle olduğu ve 3'ün kesinlikle olmadığı sonucunu çıkarır.
 Bu sonuçları sözlüğüne yazarak , işlemi yineli (recursive) tekrarlar.
@@ -56,12 +56,12 @@ C(M,N) tries to find the correct N combination in minimum # of trials.
 
   Example:
 
->   5     3  2      (algorithm is trying to find these numbers)
+0.   5     3  2      (algorithm is trying to find these numbers)
 -----------------
->      4  3  2      ++  (first response:"You got 2 of them right")
->   5  4        1   +   (second response: "4" is understood be non-existing)   
->         3  2  1   ++ 
->   5     3  2      +++ (Bingo , all the correct numbers)      
+1.      4  3  2      ++  (first response:"You got 2 of them right")
+2.   5  4        1   +   (second response: "4" is understood be non-existing)   
+3.         3  2  1   ++ 
+4.   5     3  2      +++ (Bingo , all the correct numbers)      
   
 
 ![Alt Text](images/EK1.jpg?raw=true "EkranKesiti")
