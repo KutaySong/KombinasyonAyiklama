@@ -5,15 +5,15 @@
 # NE YAPAR ?                                
 C(M,N) kombinasyonu için minimum tahminde doğru N'yi bulmaya çalışır.
 
-  Örnek:
+Örnek:
 
-//   5     3  2      (bu seçimi bulmaya çalışsın)
-//   5  4  3  2  1  
+>   5     3  2      (bu seçimi bulmaya çalışsın)
+>   5  4  3  2  1  
 ------------------
-//      4  3  2      ++  (ilk aldığı geri bildirim: "2 tane tutturdun")
-//   5  4        1   +   (ikinci deneme: burada 4'ün olmadığı anlaşılıyor)   
-//         3  2  1   ++ 
-//   5     3  2      +++ (Allah , sonuç bulundu)      
+>      4  3  2      ++  (ilk aldığı geri bildirim: "2 tane tutturdun")
+>   5  4        1   +   (ikinci deneme: burada 4'ün olmadığı anlaşılıyor)   
+>         3  2  1   ++ 
+>   5     3  2      +++ (Allah , sonuç bulundu)      
 
 
 ![Alt Text](images/EK1.jpg?raw=true "EkranKesiti")
