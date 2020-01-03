@@ -8,7 +8,6 @@ C(M,N) kombinasyonu için minimum tahminde doğru N'yi bulmaya çalışır.
 Örnek:
 
 >   5  _  3  2  _   (bu seçimi bulmaya çalışsın)
->   5  4  3  2  1  
 ------------------
 >   _  4  3  2  _   ++  (ilk aldığı geri bildirim: "2 tane tutturdun")
 >   5  4  _  _  1   +   (ikinci deneme: burada 4'ün olmadığı anlaşılıyor)   
@@ -58,7 +57,6 @@ C(M,N) tries to find the correct N combination in minimum # of trials.
   Example:
 
 >   5     3  2      (algorithm is trying to find these numbers)
->   5  4  3  2  1  
 -----------------
 >      4  3  2      ++  (first response:"You got 2 of them right")
 >   5  4        1   +   (second response: "4" is understood be non-existing)   
